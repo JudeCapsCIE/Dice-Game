@@ -1,0 +1,48 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  a{
+    color: transparent;
+    text-decoration: none;
+  } 
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  }
+  
+  body {
+    background-color:black;
+    background-image:url(./resources/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 0 white;
+    font-size: 8rem;
+    color:white;
+  }
+  
+  p {
+    font-size: 75px;
+    color:white;
+    font-family: 'Roboto Light', sans-serif;
+  }
+  
+  img {
+    width:300px;
+  }
+  
+  /* footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  } */
