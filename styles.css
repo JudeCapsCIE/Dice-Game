@@ -11,9 +11,11 @@
   .dice {
     text-align: center;
     display: inline-block;
+    padding: 200px;
   }
   
   body {
+    transform: scale(80%);
     background-color:black;
     background-image:url(./resources/wallpaper.jpg);
     background-repeat: no-repeat;
@@ -38,11 +40,15 @@
   img {
     width:300px;
   }
-  
-  /* footer {
-    margin-top: 5%;
-    color: #EEEEEE;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-  
-  } */
+
+.result {
+  margin: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-shadow:
+  -10px -10px 0 black,
+   10px -10px 0 black,
+  -10px 10px 0 black,
+   10px 10px 0 black;
+font-size: 8rem;
+  color:rgb(255, 200, 0);
+}
