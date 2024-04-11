@@ -27,13 +27,12 @@ function displayResult(randomNumber1, randomNumber2) {
     winner = 3;
   }
 
-  var resultDiv = document.getElementById("result");
   if (winner === 1) {
-    resultDiv.textContent = "Player 1 wins!";
-  } else if (winner === 2) {
-    resultDiv.textContent = "Player 2 wins!";
-  } else {
-    resultDiv.textContent = "It's a draw!";
+    document.getElementById("result").textContent = "Player 1 wins!";
+  }else if(winner === 2){
+    document.getElementById("result").textContent = "Player 2 wins!";
+  }else {
+    document.getElementById("result").textContent = "Its a tie!";
   }
 }
 
